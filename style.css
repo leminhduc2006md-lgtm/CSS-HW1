@@ -1,0 +1,36 @@
+/* Định hình cho khung hiển thị ảnh lớn */
+#image {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border: 3px dashed #777;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Định hình cho hàng ảnh nhỏ phía dưới */
+.gallery {
+    text-align: center;
+}
+
+.preview {
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.preview:hover {
+    border-color: #000;
+}

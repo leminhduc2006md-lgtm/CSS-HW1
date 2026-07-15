@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="image">
+        Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" alt="Phong cảnh núi non hùng vĩ" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview" alt="Bình minh trên biển" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview" alt="Rừng cây mùa thu" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500" onmouseover="upDate(this)" onmouseout="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
