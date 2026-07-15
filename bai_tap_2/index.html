@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thư viện ảnh tương tác tối ưu Accessibility</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initializeGallery()">
+
+    <h1>Thư viện ảnh tương tác</h1>
+    
+    <h2>Di chuột hoặc dùng phím Tab để xem ảnh lớn</h2>
+
+    <div id="image">
+        Di chuột hoặc Tab vào một hình ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" alt="Cảnh hoàng hôn trên biển đầy thơ mộng" src="https://picsum.photos/id/10/200/300" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        
+        <img class="preview" alt="Cây cổ thụ đứng vững giữa cánh đồng xanh" src="https://picsum.photos/id/15/200/300" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        
+        <img class="preview" alt="Mặt hồ phẳng lặng phản chiếu bầu trời xanh" src="https://picsum.photos/id/28/200/300" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        
+        <img class="preview" alt="Những bông hoa dại nở rộ bên đường" src="https://picsum.photos/id/42/200/300" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        
+        <img class="preview" alt="Chú chó nhỏ chạy nhảy trên bãi cỏ" src="https://picsum.photos/id/237/200/300" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        
+        <img class="preview" alt="Thành phố hiện đại lên đèn lung linh về đêm" src="https://picsum.photos/id/1049/200/300" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
